@@ -1,0 +1,362 @@
+1. Selecting as first player
+
+C:\Python27\Test Directory\Tic Tac Toe AI HW 1>python mmaity-hw1.py
+Select which player to take...
+Select(1st player or 2nd player): 1
+You're first player and Mr. Computer is the second
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 1
+After Users turn
+  |   |
+  |   |
+X |   |
+After Computer's turn
+  |   |
+  | O |
+X |   |
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 3
+After Users turn
+  |   |
+  | O |
+X |   | X
+After Computer's turn
+  |   |
+  | O |
+X | O | X
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 8
+After Users turn
+  | X |
+  | O |
+X | O | X
+After Computer's turn
+O | X |
+  | O |
+X | O | X
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 6
+After Users turn
+O | X |
+  | O | X
+X | O | X
+After Computer's turn
+O | X | O
+  | O | X
+X | O | X
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 4
+After Users turn
+O | X | O
+X | O | X
+X | O | X
+Draw
+
+C:\Python27\Test Directory\Tic Tac Toe AI HW 1>python mmaity-hw1.py
+Select which player to take...
+Select(1st player or 2nd player): 1
+You're first player and Mr. Computer is the second
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 3
+After Users turn
+  |   |
+  |   |
+  |   | X
+After Computer's turn
+  |   |
+  | O |
+  |   | X
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 8
+After Users turn
+  | X |
+  | O |
+  |   | X
+After Computer's turn
+  | X | O
+  | O |
+  |   | X
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 1
+After Users turn
+  | X | O
+  | O |
+X |   | X
+After Computer's turn
+  | X | O
+  | O |
+X | O | X
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 4
+After Users turn
+  | X | O
+X | O |
+X | O | X
+After Computer's turn
+O | X | O
+X | O |
+X | O | X
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 6
+After Users turn
+O | X | O
+X | O | X
+X | O | X
+Draw
+
+C:\Python27\Test Directory\Tic Tac Toe AI HW 1>python mmaity-hw1.py
+Select which player to take...
+Select(1st player or 2nd player): 1
+You're first player and Mr. Computer is the second
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 9
+After Users turn
+  |   | X
+  |   |
+  |   |
+After Computer's turn
+  |   | X
+  | O |
+  |   |
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 1
+After Users turn
+  |   | X
+  | O |
+X |   |
+After Computer's turn
+  |   | X
+  | O |
+X | O |
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 8
+After Users turn
+  | X | X
+  | O |
+X | O |
+After Computer's turn
+O | X | X
+  | O |
+X | O |
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 3
+After Users turn
+O | X | X
+  | O |
+X | O | X
+After Computer's turn
+O | X | X
+  | O | O
+X | O | X
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 4
+After Users turn
+O | X | X
+X | O | O
+X | O | X
+Draw
+
+
+2. Selecting as second player
+
+C:\Python27\Test Directory\Tic Tac Toe AI HW 1>python mmaity-hw1.py
+Select which player to take...
+Select(1st player or 2nd player): 2
+You're the second player and should wait till computer's first turn
+After Computer's turn
+  |   |
+  | X |
+  |   |
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 9
+After Users turn
+  |   | O
+  | X |
+  |   |
+After Computer's turn
+X |   | O
+  | X |
+  |   |
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 3
+After Users turn
+X |   | O
+  | X |
+  |   | O
+After Computer's turn
+X |   | O
+  | X | X
+  |   | O
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 4
+After Users turn
+X |   | O
+O | X | X
+  |   | O
+After Computer's turn
+X |   | O
+O | X | X
+X |   | O
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 8
+After Users turn
+X | O | O
+O | X | X
+X |   | O
+After Computer's turn
+X | O | O
+O | X | X
+X | X | O
+Draw
+
+
+
+C:\Python27\Test Directory\Tic Tac Toe AI HW 1>python mmaity-hw1.py
+Select which player to take...
+Select(1st player or 2nd player): 2
+You're the second player and should wait till computer's first turn
+After Computer's turn
+  |   |
+  | X |
+  |   |
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 7
+After Users turn
+O |   |
+  | X |
+  |   |
+After Computer's turn
+O |   | X
+  | X |
+  |   |
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 1
+After Users turn
+O |   | X
+  | X |
+O |   |
+After Computer's turn
+O |   | X
+X | X |
+O |   |
+Please select position by typing in a number between 1 and 9, see below for whic
+h number that is which position...
+7|8|9
+4|5|6
+1|2|3
+
+Select: 2
+After Users turn
+O |   | X
+X | X |
+O | O |
+After Computer's turn
+O |   | X
+X | X | X
+O | O |
+Computer won!!!

@@ -1,0 +1,33 @@
+Tic-Tac-Toe Strategy Discussion:
+
+The strategy adopted by the algorithm is defensive because the assumption is that if both players are perfect, no one will win and eventually the game will be draw.
+
+Also as the sample space of all stages is relatively small as its a 3X3 board, some of the strategies adopted will become unadaptable for a game of large sample space like chess. This is the limitation of the implemented strategy.
+
+Firstly there's an absolute priority of choosing the position in following order:
+1. Center
+2. Empty Corners
+3. Middle sides
+The order is chosen like this according to the chances of winning or drawing if we ignore the situation of the game at any point. However, according to some special situations, the algorithm is modified so as to override the generic absolute ordering.
+
+The algorithm's step are as followed(written sequentially):
+
+1. In first step of computer's move, look for the center (It maximizes the chances of winning and we can do that because the user needs at least two more chances to fill up three consecutive positions)
+2. Look for places where there's chance of immediate winning i.e. two are already filled up by computer in a row,a column or in a diagonal. Computer need to snatch the game without any mistake.
+3. Look for places where there's a chance for opponent winning. Computer need to fill up so as to proceed without loosing. This is a defensive strategy.
+4. Now a special case which have been talked earlier that overrides the normal strategy.
+Consider this board position:X=User, O=Computer
+        #  |   | X
+        #  | O |
+        #X |   |
+Here instead of choosing a corner, computer should choose a middle position.
+5.Next special strategy to also override normal strategy:
+Consider this board position:X=User, O=Computer
+         #X |   | A
+         #  | O | X
+         # B|   |
+Here any random corner will result in losing the match. For example choosing position marked 'B' will make computer loose. Instead, choosing 'A' is a better decision.
+6. Here onwards, normal flow will proceed.
+	a. Look for empty corners
+	b. Look for middle positions.
+Execution will rarely enter into here because as the game progresses, there will be lesser number of empty positions and most of the positions will be selected using step 3. This is kept in implementation as defensive so that no choice is returned as (-1,-1) which indicates computer is not sure what to choose.
